@@ -1,0 +1,9 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+  g3docs: g3docs/*
+
+redirects:
+  previous/page: new-folder/page.md
