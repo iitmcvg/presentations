@@ -8,11 +8,11 @@ Varun Sundar
 
 ## Disclaimer
 
-*  @size[small](You are part of privy info)
+*  @size[medium](You are part of privy info)
 
-* @size[small](With great power comes great responsibility)
+* @size[medium](With great power comes great responsibility)
 
-----
+---
 
 ## Agenda Points:
 
