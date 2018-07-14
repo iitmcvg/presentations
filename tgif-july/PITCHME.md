@@ -77,8 +77,6 @@ Varun Sundar
 
 * Can look at goals of papers plus patents
 
-
-
 ---
 
 ## Inventory management
@@ -93,8 +91,19 @@ Varun Sundar
 
 +++
 
+### Training Infra
+
 * MSI
+* Workstation
+
+---
+
+### Access to GPU's
+
+* Dockerised containers
+* Mounted HOME and Media dir's (your code is saved)
+* Train responsibly
 
 +++
 
-* Workstation
+### Ways your container can die
