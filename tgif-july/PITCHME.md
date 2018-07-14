@@ -1,15 +1,17 @@
-TGIF-27-07-2018
+27-07-2018
 
 # TGIF 
 
 Varun Sundar
  
 ---
+
 ## Disclaimer
 
-*  You are part of privy info
+*  @size[small](You are part of privy info)
 
-* With great power comes great responsibility
+* @size[small](With great power comes great responsibility)
+
 ----
 
 ## Agenda Points:
@@ -26,7 +28,7 @@ Varun Sundar
 
 * To create a *technically competent* community of AI and vision experimenters.
 
-* broad goal, 
+* broad goal
 
 * each of us may have different interpretations
 
