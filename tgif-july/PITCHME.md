@@ -8,9 +8,9 @@ Varun Sundar
 
 ## Disclaimer
 
-*  @size[medium](You are part of privy info)
+*  @size[large](You are part of privy info)
 
-* @size[medium](With great power comes great responsibility)
+* @size[large](With great power comes great responsibility)
 
 ---
 
