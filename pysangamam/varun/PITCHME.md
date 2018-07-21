@@ -50,7 +50,7 @@ _(tabs vs spaces anyone?)_
 
 ---
 
-## Let's step back a bit ...
+## Why are some docs bad?
 
 * Most reasons >> docs don't give you what you _actually_ need.
 
@@ -86,6 +86,63 @@ Hurts :
 * Apparent age scale has dropped >> Quicker dev cycles.
 
 ---
+
+## Let's step back up a bit
+
+* Documentation is everybody's problem
+
++++
+
+Good Documetation could use :
+
+* a cultural change (bottoms up approach)
+* a tooling change (top down approach)
+
++++
+
+## But 
+
+* Both inflict help
+
+* _yes, that's an oxymoron_
+
+---
+
+## Dynamic and Integrated Docs
+
+* What if we could integrate docs into workflow
+
+* Build on Git's README culture.
+
+* Much better than using wiki's.
+
+---
+
+## Inspiration here: G3Docs
+
+* An internal format followed by many OSS projects in google (eg: tensorflow)
+
+* Started when google engineers cited docs as #1 productivity issue (Googlegeist
+2014)
+
++++
+
+## No this isn't a google commercial
+
+---
+
+## The Idea
+
+* Either auto-render or write specific docs in a determined folder on your repo
+
+* Render these as static sites 
+
+* Either per repo or sweep through a list.
+
+---
+
+## Appendix
+
 
 
 
