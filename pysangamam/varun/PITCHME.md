@@ -139,6 +139,12 @@ Good Documetation could use :
 
 * Either per repo or sweep through a list.
 
++++
+
+* keep only content on source repo's
+
+* no style sheets, index files on source repo's
+
 ---
 
 ## Appendix
