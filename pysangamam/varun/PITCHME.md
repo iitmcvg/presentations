@@ -42,11 +42,7 @@ Note:
 
 - Using 2016, since 2017 and 2018 donot contain relevant parameters
 
-+++
-
----?image=assets/stackoverflow-challenges-2016.png&size=50% 100%&color=lightgray
-
-+++
++++image=assets/stackoverflow-challenges-2016.png&size=50% 100%
 
 * Documentation comes in at no 2
 
