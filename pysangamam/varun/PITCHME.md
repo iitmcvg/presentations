@@ -2,7 +2,7 @@ PySangamam
 
 # Engineering documentation for scientific python
 
-_Varun Sundar_
+_Varun Sundar_  
 _Draft Slides, 20th July 2018_
 
 ---
@@ -38,11 +38,17 @@ Do we?
 * An annual survey of developer practices, issues, popular opinions 
 _(tabs vs spaces anyone?)_
 
-* ![Challenges-at-work](pysangamam/varun/stackoverflow-challenges-2016.png)
+Note:
+
+- Using 2016, since 2017 and 2018 donot contain relevant parameters
 
 +++
 
-* Comes in at no 2
+---?image=assets/stackoverflow-challenges-2016.png&size=50% 100%&color=lightgray
+
++++
+
+* Documentation comes in at no 2
 
 * Poor docs or inexistent docs or inconsistent docs
 
@@ -108,6 +114,16 @@ Good Documetation could use :
 
 ---
 
+## Existing Documentation Engines 
+
+in Python
+
+* Sphinx
+
+* Doxygen: tool of choice for C/C++. Not really nice with python.
+
+---
+
 ## Dynamic and Integrated Docs
 
 * What if we could integrate docs into workflow
@@ -141,9 +157,25 @@ Good Documetation could use :
 
 +++
 
+* seperate presentation from the content
+
 * keep only content on source repo's
 
 * no style sheets, index files on source repo's
+
+---
+
+## Great how do we do it?
+
+* Generate the markdown 
+
+* Serve the markdown
+
+---
+
+## Generating the markdown
+
+* 
 
 ---
 
