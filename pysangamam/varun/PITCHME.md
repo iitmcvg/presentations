@@ -19,24 +19,36 @@ _Draft Slides, 20th July 2018_
 
 ## The Problem at hand
 
-Well good documentation is an utopian concept.
+@ul
 
-Does it even exist?
+- Well good documentation is an utopian concept.
+
+- Does it even exist?
+
+@ulend
 
 +++
 
+@ul
+
 We all know how crucial documentation can be.
 
-Do we?
+But the scale can be suprising at times.
+
+@ulend
 
 ---
 
 ## Caution : Numbers ahead!
 
+@ul
+
 * Stack overflow developer survey 2016
 
 * An annual survey of developer practices, issues, popular opinions 
 _(tabs vs spaces anyone?)_
+
+@ulend
 
 Note:
 
@@ -48,11 +60,15 @@ Note:
 
 +++
 
+@ul
+
 * Documentation comes in at no 2
 
 * Poor docs or inexistent docs or inconsistent docs
 
 * no's 1,3 are related to communication too
+
+@ulend
 
 ---
 
@@ -60,18 +76,27 @@ Note:
 
 * Most reasons >> docs don't give you what you _actually_ need.
 
++++
+
+@ul
+
 * sort of like this...
 
 * ![bridge-out-ahead](https://i.imgflip.com/20tthj.jpg)
+
+@ulend
 
 +++
 
 ## Or...
 
+@ul
+
 * Docs are out of date.
 
 * Obsolete docs can be more harmful than no docs.
 
+@ulend
 ---
 
 ## Bad Docs
