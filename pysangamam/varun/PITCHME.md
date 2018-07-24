@@ -44,7 +44,9 @@ Note:
 
 +++
 
-+++image=assets/stackoverflow-challenges-2016.png&size=50% 100%
+![stack-overflow](assets/stackoverflow-challenges-2016.png)
+
++++
 
 * Documentation comes in at no 2
 
