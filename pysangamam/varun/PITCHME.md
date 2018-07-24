@@ -1,6 +1,6 @@
 PySangamam
 
-# Engineering documentation for scientific python
+## Engineering documentation for scientific python
 
 _Varun Sundar_  
 _Draft Slides, 20th July 2018_
