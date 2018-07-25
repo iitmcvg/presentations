@@ -24,7 +24,7 @@ Varun Sundar
 
 ---
 
-## Our Goals
+## Section 1: Our Goals
 
 * To create a *technically competent* community of AI and vision experimenters.
 
@@ -34,9 +34,21 @@ Varun Sundar
 
 +++
 
-* Need everyone to share a goal
+* Need everyone to share a goal.
+
+* Might evolve with time.
 
 ---
+
+## Section 2: Work Ethic
+
+* Fixed place, Fixed time
+
+* continual work is needed to develop expertise
+
+---
+
+## Section 3
 
 ### Work we take up
 
@@ -56,6 +68,8 @@ Varun Sundar
 
 * Getting it to work in env is harder
 
+* AI- 3-5/10, Engineering- 6-8/10, People- 8-9/10
+
 +++
 
 ### Academic projects
@@ -63,6 +77,8 @@ Varun Sundar
 * Hallmark topics plus areas
 
 * To improve in-house expertise
+
+* AI- 8-9/10, Engineering- 2-3/10, People- 0-2/10
 
 +++
 
@@ -76,6 +92,43 @@ Varun Sundar
 +++
 
 * Can look at goals of papers plus patents
+
+---
+
+### Present Tie-Ups
+
+For Impact Projects
+
+*  
+
+* Verihelp, a 
+
+* Hyperverge, Predible in possiblities too
+
++++
+
+## Testing waters
+
+* Plan on taking up two till December
+
+---
+
+## KeyStone Events
+
+* We target (not limited to) events which could help us gain expertise
+
+* Spread across the Semester
+
+* Aug - None (besides, intro sessions)
+* Sep - Pysangamam, Pycon, DL Master class
+* Oct- Open House
+* Nov - .
+* Dec - Tech Meet, CVG Meet?
+* Jan - AI Conference
+
+---
+
+## Branding
 
 ---
 
