@@ -1,4 +1,4 @@
-27-07-2018
+27th July, 2018
 
 # TGIF 
 
@@ -8,9 +8,9 @@ Varun Sundar
 
 ## Disclaimer
 
-*  @size[large](You are part of privy info)
+* @size[x-large](You are part of privy info)
 
-* @size[large](With great power comes great responsibility)
+* @size[x-large](With great power comes great responsibility)
 
 ---
 
@@ -19,7 +19,7 @@ Varun Sundar
 1. Refining our goals
 2. Work ethic
 3. Semester plan
-4. Inventory announcements and management
+4. Inventory changes and management
 
 ---
 
@@ -45,9 +45,21 @@ Varun Sundar
 
 * continual work is needed to develop expertise
 
++++
+
+* Our objective will always be to improve quality
+
+* This includes:
+    - Technical expertise (optimised pipelines, more experimentation)
+    - Content management
+    - People management
 ---
 
-## Section 3 : 3.1 Work we take up
+## Section 3: Semester Plan
+
+---
+ 
+### 3.1 Work we take up
 
 * Projects of two kinds
 
@@ -88,7 +100,7 @@ Varun Sundar
 
 +++
 
-* Can look at goals of papers plus patents
+* Can look at goals of papers plus patents, deployment.
 
 ---
 
@@ -96,15 +108,19 @@ Varun Sundar
 
 For Impact Projects
 
-* Verihelp, a startup using AI to secure school children
+* _Verihelp_, a startup using AI to secure school children
 
 * A Shipping based company, which wants to automate maintainance tasks.
 
 * Hyperverge, Predible in possiblities too
 
+Note:
+ - Why havent we named the shipping company?
+ - Ask muthu XD
+
 +++
 
-## Testing waters
+### Testing waters
 
 * Plan on taking up two only till December
 
@@ -114,7 +130,18 @@ For Impact Projects
 
 ### 3.1.4 External Projects SOP
 
+* Pipeline: 
+    - Receive or Seek proposal
+    - Literature Survey
+    - POC
+    - setup terms of operation, team bandwidth
+    - Project
 
++++
+
+* Full details: Drive/Documents/Propositions/External-Project-Template
+
+* [Link](https://docs.google.com/document/d/1OUbwkQkI8m5wGkM7gBmytEiduPVHMGGiGutQOfMYDm0/edit?usp=sharing)
 
 ---
 
@@ -123,6 +150,8 @@ For Impact Projects
 * We target (not limited to) events which could help us gain expertise
 
 * Spread across the Semester
+
++++
 
 * Aug - None (besides, intro sessions)
 * Sep - Pysangamam, Pycon, DL Master class
@@ -137,8 +166,34 @@ For Impact Projects
 
 @ul 
 
-* If we are
+* If we are really good at what we do, we need to showcase it.
+* Work on online presence.
 
+@ulend
+
++++
+
+### Online Presence
+
+* Medium for posts. (target 3-4 a month)
+
+* Overhaul both Fb, Twitter (pages, handles)
+
++++
+
+### Handling 100 ML Days
+
+
+
+---
+
+## 3.4 Standardisation
+
+With respect to:
+
+* Content
+* Documentation
+* En
 ---
 
 ## Section 4: Inventory management
