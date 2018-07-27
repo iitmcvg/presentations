@@ -43,7 +43,7 @@ Varun Sundar
 
 * Fixed place, Fixed time
 
-* continual work is needed to develop expertise
+* continuous work is needed to develop expertise
 
 +++
 
@@ -56,11 +56,13 @@ Varun Sundar
 
 +++
 
-Fixed place, Fixed time ...
+### Fixed place, Fixed time ...
 
 - Wednesday for technical discussions 
     - frameworks/ papers
     - 1-2 hours
+
++++
 
 - Fridays (or Thursdays) for admin meetings
     - Meant for all of you to keep in touch with happenings
@@ -68,7 +70,7 @@ Fixed place, Fixed time ...
 
 - Full flexibility in topic otherwise.
 
-@Note:
+Note:
 * Not only tech topics
 
 ---
@@ -81,9 +83,9 @@ Fixed place, Fixed time ...
 
 * Projects of two kinds
 
-* Impactful real world projects
+    - Impactful real world projects
 
-* Academic oriented ones
+    - Academic oriented ones
 
 +++
 
@@ -182,6 +184,10 @@ Note:
 
 +++
 
+Long term: AI4India
+
++++
+
 ## PySangamam
 
 * 7th, 8th September.
@@ -229,7 +235,9 @@ Note:
 
 * AI Conference ideation is done, will be setting up the executing group
 
-* CVG Meet of all our seniors.
+* CVG Meet of all our seniors. 
+
+* Want all of you to head your own events.
 
 * More here: [Documents/Meetings/Stakeholders-AI-Conf](https://docs.google.com/document/d/1_RVTnkloheBQVXmbjG9RO12z-QIKQEMkaR2P84HwFc0/edit?usp=sharing)
 
@@ -300,6 +308,10 @@ With respect to:
 * Pendrives
 
 * Meta Pro glasses.
+
++++
+
+* System to handle usage (TO-DO)
 
 +++
 
@@ -376,5 +388,19 @@ Wish this could be more dramatic...
 ---
 
 ## Section 5: Workspace
+
+Open for discussion
+
+---
+
+## Appendix
+
+Open roles for heading:
+    - Branding
+    - Events (AI Conf, DL masterclass, AI4India)
+    - New topics (drone navigation, DRL)
+    - Impact Projects
+    - Standardisation process.
+
 
 
