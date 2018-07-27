@@ -20,7 +20,6 @@ Varun Sundar
 2. Work ethic
 3. Semester plan
 4. Inventory announcements and management
-5. X
 
 ---
 
@@ -48,9 +47,7 @@ Varun Sundar
 
 ---
 
-## Section 3
-
-### Work we take up
+## Section 3 : 3.1 Work we take up
 
 * Projects of two kinds
 
@@ -60,7 +57,7 @@ Varun Sundar
 
 +++
 
-### Impact projects
+### 3.1.1 Impact projects
 
 * Deploy to see results
 
@@ -72,7 +69,7 @@ Varun Sundar
 
 +++
 
-### Academic projects
+### 3.1.2 Academic projects
 
 * Hallmark topics plus areas
 
@@ -95,13 +92,13 @@ Varun Sundar
 
 ---
 
-### Present Tie-Ups
+### 3.1.3 Present Tie-Ups
 
 For Impact Projects
 
-*  
+* Verihelp, a startup using AI to secure school children
 
-* Verihelp, a 
+* A Shipping based company, which wants to automate maintainance tasks.
 
 * Hyperverge, Predible in possiblities too
 
@@ -109,11 +106,19 @@ For Impact Projects
 
 ## Testing waters
 
-* Plan on taking up two till December
+* Plan on taking up two only till December
+
+* Have setup a SOP for external Projects
 
 ---
 
-## KeyStone Events
+### 3.1.4 External Projects SOP
+
+
+
+---
+
+## 3.2 KeyStone Events
 
 * We target (not limited to) events which could help us gain expertise
 
@@ -128,11 +133,15 @@ For Impact Projects
 
 ---
 
-## Branding
+## 3.3 Branding
+
+@ul 
+
+* If we are
 
 ---
 
-## Inventory management
+## Section 4: Inventory management
 
 * Standardising
 
@@ -144,14 +153,14 @@ For Impact Projects
 
 +++
 
-### Training Infra
+### 4.1 Training Infra
 
 * MSI
 * Workstation
 
 ---
 
-### Access to GPU's
+### 4.2 Access to GPU's
 
 * Dockerised containers
 * Mounted HOME and Media dir's (your code is saved)
@@ -159,4 +168,15 @@ For Impact Projects
 
 +++
 
-### Ways your container can die
+### 4.3 Ways your container can die
+
+@ul
+* Fill up your allocated HDD/SSD limits
+
+* `rm -rf` for no joy
+
+* Use passwords for SSH (use only SSH Keys)
+
+* Use anaconda on top of docker
+
+@ulend
