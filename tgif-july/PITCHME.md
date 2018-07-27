@@ -53,6 +53,24 @@ Varun Sundar
     - Technical expertise (optimised pipelines, more experimentation)
     - Content management
     - People management
+
++++
+
+Fixed place, Fixed time ...
+
+- Wednesday for technical discussions 
+    - frameworks/ papers
+    - 1-2 hours
+
+- Fridays (or Thursdays) for admin meetings
+    - Meant for all of you to keep in touch with happenings
+    - Cross collab among teams working in different topics
+
+- Full flexibility in topic otherwise.
+
+@Note:
+* Not only tech topics
+
 ---
 
 ## Section 3: Semester Plan
@@ -94,7 +112,7 @@ Varun Sundar
 * Areas : (subject to discussion)
 
  1. Pattern recognition, DL with associated NLP
- 2. Robotic vision
+ 2. Robotic vision, Drone navigation
  3. Deep RL
  4. DL in computational photography
 
@@ -137,6 +155,8 @@ Note:
     - setup terms of operation, team bandwidth
     - Project
 
+* Shipping company PS is in POC stage, Verihelp is in POC talks.
+
 +++
 
 * Full details: Drive/Documents/Propositions/External-Project-Template
@@ -160,6 +180,64 @@ Note:
 * Dec - Tech Meet, CVG Meet?
 * Jan - AI Conference
 
++++
+
+## PySangamam
+
+* 7th, 8th September.
+
+* 3 submissions (4 people), shortlisting on 1st Aug.
+
+* Will also be conducting a workshop (to finalise this week)
+
+* Also 1 submission to _Pycon_
+
++++
+
+## DL Masterclass (_Bootcamp?_)
+
+* In mid September, either post 10th or post 24th.
+
+* Need to understand pros-cons from last year, what impact we want.
+
+* RL masterclass next sem
+
++++
+
+## OpenHouse
+
+* 3rd week of Oct (mostly)
+
+* Handling present projects:
+    - Finish till you setup optimal exeperimentation pipelines.
+    - more on this in our technical meets
+    - Then choose to document and move on or scale up.
+
++++
+
+* Work on your theory as you build your pipelines for existing projects.
+
+* Reduce iteration time for new topics you want to take up.
+
+* Be good at atleast one framwork.
+
++++
+
+## The Rest
+
+* Will update in upcoming meetings
+
+* AI Conference ideation is done, will be setting up the executing group
+
+* CVG Meet of all our seniors.
+
+* More here: [Documents/Meetings/Stakeholders-AI-Conf](https://docs.google.com/document/d/1_RVTnkloheBQVXmbjG9RO12z-QIKQEMkaR2P84HwFc0/edit?usp=sharing)
+
+@Note:
+
+- Communication tools: Whatsapp or slack
+- Use the drive account.
+
 ---
 
 ## 3.3 Branding
@@ -179,7 +257,13 @@ Note:
 
 * Overhaul both Fb, Twitter (pages, handles)
 
++++
+
 * Seperate present blog, create a proper landing page
+
+* Landing page has to be impressive.
+
+* See
 
 Note:
     - Logos, Page Banners
@@ -188,7 +272,13 @@ Note:
 
 ### Handling 100 ML Days
 
+* Worthwhile considering we want to work regularly
 
+* Logging of our change
+
+* Need to tell a story.
+
+* Opinions?
 ---
 
 ## 3.4 Standardisation
@@ -199,6 +289,8 @@ With respect to:
 * Documentation  
 * Optimised pipelines for common tasks 
 (or _engines_ if you may)  
+* Custom (private) Datasets
+
 ---
 
 ## Section 4: Inventory management
@@ -218,6 +310,13 @@ With respect to:
 
 +++
 
+Workstation Specs:
+
+    - i7, 12 cores
+    - 64 GB RAM
+    - 3 GPUs ( 1 fitted currently)
+    - 4Tb + 256 GB Storage
+
 ---
 
 ### 4.2 Access to GPU's
@@ -236,6 +335,16 @@ Port numbers are unique. User names are unique.
 
 +++
 
+### Training Guidelines
+
+* Binary files on SSD (lmdb, TF Records
+
+* Donot install cross-dependencies, ask for another container
+
+* Keep containers with bare minimum internal libs (add to the DOCKERFILE instead)
+
+---
+
 ### 4.3 Ways your container can die
 
 @ul
@@ -249,6 +358,8 @@ Port numbers are unique. User names are unique.
 
 @ulend
 
+Wish this could be more dramatic...
+
 +++
 
 ### Other points
@@ -261,3 +372,9 @@ Port numbers are unique. User names are unique.
 * Eg: Use rmate for vscode, or vim
 
 @ulend
+
+---
+
+## Section 5: Workspace
+
+
