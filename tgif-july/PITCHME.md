@@ -179,10 +179,14 @@ Note:
 
 * Overhaul both Fb, Twitter (pages, handles)
 
+* Seperate present blog, create a proper landing page
+
+Note:
+    - Logos, Page Banners
+
 +++
 
 ### Handling 100 ML Days
-
 
 
 ---
@@ -191,20 +195,19 @@ Note:
 
 With respect to:
 
-* Content
-* Documentation
-* En
+* Content  
+* Documentation  
+* Optimised pipelines for common tasks 
+(or _engines_ if you may)  
 ---
 
 ## Section 4: Inventory management
 
-* Standardising
-
-* 4 cameras (go pro, 270,310,922x). A. Tripod
+* 4 cameras (go pro, Logitech 270,310,922x). A. Tripod
 
 * Pendrives
 
-* Meta glasses.
+* Meta Pro glasses.
 
 +++
 
@@ -213,6 +216,8 @@ With respect to:
 * MSI
 * Workstation
 
++++
+
 ---
 
 ### 4.2 Access to GPU's
@@ -220,6 +225,14 @@ With respect to:
 * Dockerised containers
 * Mounted HOME and Media dir's (your code is saved)
 * Train responsibly
+
++++
+
+Access: (similar to)
+
+`ssh -p XXXX varun@iitmcvg.local`
+
+Port numbers are unique. User names are unique.
 
 +++
 
@@ -232,6 +245,19 @@ With respect to:
 
 * Use passwords for SSH (use only SSH Keys)
 
-* Use anaconda on top of docker
+* Use anaconda on top of docker (_Why, just why?_)
+
+@ulend
+
++++
+
+### Other points
+
+@ul
+* Setup your remote tools 
+
+* Donot be heavily reliant on Desktops/ VLC
+
+* Eg: Use rmate for vscode, or vim
 
 @ulend
