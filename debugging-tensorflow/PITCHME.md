@@ -90,7 +90,7 @@ In tensorflow what happens whe you write a program is,
 
 +++
 
-![Linear_regression_graph](/images/linear_regression_graph.png)
+![Linear_regression_graph](images/linear_regression_graph.png)
 
 ---
 #### Why Debugging TensorFlow programs is difficult?
