@@ -147,6 +147,14 @@ in Python
 
 * Doxygen: tool of choice for C/C++. Not really nice with python.
 
++++
+
+## Issues
+
+* Sphinx: 
+
+* Doxygen: Doesn't follow with 
+
 ---
 
 ## Dynamic and Integrated Docs
@@ -200,7 +208,110 @@ in Python
 
 ## Generating the markdown
 
-* 
+@ul
+Generally two requierements,
+
+* Overall pipeline documentation
+
+* module specific API style docs 
+
+@ulend
+
++++
+
+## Module Specific Docs
+
+@ul
+* Needs a convention
+
+* We choose to adpot numpy convention
+
+@ulend
+
++++
+
+## Numpy convention
+
+* Use docstrings for every :
+    - module (top of the file)
+    - class
+    - functions 
+
++++
+
+### Module documentation
+
+* State description, example command, all possible arguments.
+
++++
+
+```
+'''
+Foo/bar.py
+
+To allow for better scripts
+
+Example usage:
+
+python root_dir/Foo/bar.py \
+--flag1 arg1 \
+--flag2 args
+
+Args:
+
+* arg1:
+* arg2:
+'''
+
+import XYZ
+```
+
++++
+
+* Recommended execution at root of repo
+
+* Use __init__.py files if necessary for modules
+
+---
+
+## Generating automatic API docs
+
+* Pydocs if you prefer a library
+
+* Not hard to write a custom markdown extractor
+
+---
+
+## PyDocs
+
+
+---
+
+## Custom Markdown Extractor
+
+---
+
+## Serving the Docs
+
+Many choices:
+
+* Mkdocs: A standard for many markdown files.
+
+* Docsify: Has a minimal, clean interface
+
++++
+
+* Besides this you could use any static site generator like:
+    - Jeykll
+    - Hugo
+
+---
+
+## Using Docsify
+
+Structure:
+
+
 
 ---
 
