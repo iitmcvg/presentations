@@ -28,7 +28,7 @@ Try the mobile apps for object detection too.
 
 ## 3. Image Segmentation (semantic)
 
-![Image Segmentation]
+![Image Segmentation](https://vision.in.tum.de/_media/spezial/bib/nieuwenhuis-cremers-pami12_2.jpg)
 
 ---
 
