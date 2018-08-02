@@ -28,7 +28,7 @@ Try the mobile apps for object detection too.
 
 ## 3. Image Segmentation (semantic)
 
-![Image Segmentation](https://vision.in.tum.de/_media/spezial/bib/nieuwenhuis-cremers-pami12_2.jpg)
+![Image Segmentation](https://github.com/tensorflow/models/raw/master/research/deeplab/g3doc/img/vis3.png)
 
 ---
 
