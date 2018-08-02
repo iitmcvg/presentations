@@ -14,7 +14,7 @@ Computer Vision and Intelligence Group
 
 ## 1. Image Classification
 
-![Image Classification]
+![Image Classification](http://danielnouri.org/media/deep-learning-whales-krizhevsky-lsvrc-2012-predictions.jpg)
 
 ---
 
@@ -34,7 +34,7 @@ Try the mobile apps for object detection too.
 
 ## 4. AI can paint (Pix2Pix)
 
-![Pix2Pix]
+![Pix2Pix](https://phillipi.github.io/pix2pix/images/teaser_v3.png)
 
 Web version:
 
