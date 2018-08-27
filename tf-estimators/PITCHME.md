@@ -39,3 +39,31 @@ handle exceptions
 create checkpoint files and recover from failures
 save summaries for TensorBoard
 When writing an application with Estimators, you must separate the data input pipeline from the model. This separation simplifies experiments with different data sets.
+
++++
+
+Structure:
+
+* Write one or more dataset importing functions
+* Define the feature columns
+* Define model, for train, eval and infer
+* Write appropriate logs for eval
+* Write a runconfig
+
++++
+
+Advantages:
+
+Wishlist:
+* Log to terminal plus tensorboard
+* Profiling
+* Save checkpoints, freeze inference graphs, run exports.
+* Multi-GPU code, strategies.
+
++++
+
+GO about:
+
+* Study estimator examples
+* Write one with layers api for inception-resnet.
+* Implement wishlist
