@@ -20,6 +20,8 @@ One word:
 
 **Git**
 
+![git](https://s24255.pcdn.co/wp-content/uploads/2015/02/Git.png)
+
 ---
 
 * Everything is tied to only one version control system.
@@ -115,6 +117,16 @@ See : github.com/iitmcvg/workflow
 * We give each of you tf and a few other standard stuff.
 * Ask for specific container for crazy installs.
 
+* No more spending one day installing packages.
+
+---
+
+## For you
+
+* Installing some non-standard stuff>> Start with a new container
+
+* Finished your project / Major checkpoints >> Make a dockerfile
+
 ---
 
 ## G3Docs
@@ -126,11 +138,13 @@ See : github.com/iitmcvg/workflow
 
 ## Current Features
 
-* 
+* Pulls docs and cleans em automatically
+* Git versioned
 
 ---
 
 * We are adding a few more features soon:
     - direct opening in github
+    - closer integration to main site
 
 ---
