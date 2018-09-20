@@ -27,7 +27,7 @@ Feel free to shoot questions.
 
 +++
 
-#### Disclaimer: This presentation was made with git tools.
+#### This presentation was made with git!
 
 +++
 
@@ -51,7 +51,7 @@ Feel free to shoot questions.
 
 ![image3](https://www.addteq.com/blog/files/113446998/113447001/1/1457715739000/gitvssvn.png)
 
----
++++
 
 ## Strenghts
 
@@ -62,11 +62,11 @@ Feel free to shoot questions.
 
 * Supports non-linear, scale variant development. (Branching, Merging)
 
----
++++
 
 ## Overall Picture
 
-![Git overall](https://wac-cdn.atlassian.com/dam/jcr:2bef0bef-22bc-4485-94b9-a9422f70f11c/02%20(2).svg)
+![Git overall](https://wac-cdn.atlassian.com/dam/jcr:2bef0bef-22bc-4485-94b9-a9422f70f11c/02%20(2)
 
 ---
 
@@ -166,6 +166,8 @@ I'll shortly explain what a remote, origins and master's are.
     --local (project specific)
     --global (user specific)
     --system (all machines)
+
++++
 
 * Some objects and properties:
     - user >> email, name
