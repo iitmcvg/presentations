@@ -10,8 +10,9 @@
 1. What, why and how?
 2. Your first repo.
 3. A gist of git commands.
-4. Git oriented practices.
-5. Other use cases.
+4. Some more steps.
+5. Git oriented practices.
+6. Other use cases.
 @ulend
 
 ---
@@ -23,6 +24,10 @@ Section 1:
 But it takes some time to get a grasp.
 
 Feel free to shoot questions.
+
++++
+
+#### Disclaimer: This presentation was made with git tools.
 
 +++
 
@@ -80,6 +85,15 @@ git config --global user.email "mona.lisa@da-vinci.com
 
 +++
 
+Optional Stuff
+
+```
+git config --global color.ui "auto"
+git config --global core.editor "nano"
+```
+
++++
+
 You can display these by
 
 ```
@@ -89,18 +103,54 @@ git config --global user.email
 
 +++
 
+## Step 2: Find a directory of interest
+
 ```
 cd foo
 git init
+```
+
++++
+
+## Step 3: Add, update files
+
+```
 git add . && git add -u
-git commit -m "Initial commit"
-git remote add origin <my origin>
+```
+
++++
+
+## Step 4: Add a remote
+
+```
+git remote add url
+```
+
++++
+
+## Step 5: Push to origin at master
+
+```
 git push --set-upstream origin master
 ```
 
+I'll shortly explain what a remote, origins and master's are.
+
 ---
 
-## Section 2.2 Git Config
+## Section 3: Some Git Vocab
+
+* **Working Tree**: A directory in your filesystem with the code.
+
+* **Repository**:A collection of commits and branches saved in the .git directory.
+
+* **Commit**: A snapshot of your working tree, identified by the revision number.
+
+* **HEAD**: the commit your work tree is currently at.
+
+---
+
+## Section 3.2 Git Config
 
 * is a convenience function that is used to set Git configuration values on a global or local project level. 
 
@@ -126,7 +176,7 @@ git push --set-upstream origin master
 
 ---
 
-## Section 2.3 Saving Changes
+## Section 3.3 Saving Changes
 
 * git add
 * git commit
@@ -154,7 +204,21 @@ git push --set-upstream origin master
 
 * Record snapshots (not differences like CVS, SVNs)
 
++++
+
 ![staging](https://www.atlassian.com/dam/jcr:7406fe56-d36d-44cf-92e3-b28e4bae36f8/02.svg)
+
++++
+
+* Commits are cheap, fast.
+
+* Recommended to commit as much as needed.
+
+* There's a caveat.
+
++++
+
+![humour](https://camo.githubusercontent.com/9dff2ed7d6ca58a6d44d600d56658d1d5b1fa24b/687474703a2f2f696d67732e786b63642e636f6d2f636f6d6963732f6769745f636f6d6d69742e706e67)
 
 +++
 
@@ -171,6 +235,12 @@ git push --set-upstream origin master
 
 +++
 
+### How staging works
+
+![image-staging](https://github.com/mbjoseph/git-intro/raw/master/fig/git.png)
+
++++
+
 ### Git Diff
 
 * differences between two snapshots or files
@@ -180,7 +250,6 @@ git push --set-upstream origin master
 Eg:
 ```
 git log --pretty=oneline
-
 ```
 
 +++
@@ -211,9 +280,94 @@ git log --pretty=oneline
 
 * Again, can use global or local rules.
 
++++
+
+## Let's try this
+
+Introduce a big file in your dir.
+
+```
+vim .gitignore
+```
+
++++
+
+Add the file to ignore.
+
+
+Try commiting and pushing again.
+
 ---
 
-## Section 2.4 Organising this
+## Section 4: Some more baby steps
+
+### 4.1: Branches and Merging
+
+* Branch == Named Commit
+
+* Default is master.
+
+* Allows for deviations in code developement.
+
++++
+
+* A branch is local to your repo
+
+```
+git checkout -b fancybranch
+```
+
+If you want to switch back to master
+
+```
+git checkout master
+```
+
++++
+
+Pushing to a branch
+
+```
+git push <remote> <branch>
+```
+
+eg:
+
+```
+git push origin fancybranch
+```
+
+or, (since git is smart):
+
+```
+git push
+```
+
++++
+
+You can delete a branch too
+
+```
+git branch -d fancybranch
+```
+---
+
+## Section 4.2: Remotes (fun stuff ahead)
+
+
+
++++
+
+## Github vs. GitLab vs. Bitbucket
+
+Private repos:
+
+* free on Bitbucket (w/ < 6 collaborators)
+* free on GitLab (unlimited collaborators)
+* not free on Github
+---
+
+## Section 5 Git Oriented Practices (Optional)
 
 * Seperate master and develop branches
 
@@ -221,7 +375,7 @@ git log --pretty=oneline
 
 * Generic syntax : `git flow <type of branch> <start/finish> name`
 
----
++++
 
 ## Dev vs Master
 
@@ -231,7 +385,7 @@ git log --pretty=oneline
 
 `git flow feature finish feature_branch`
 
----
++++
 
 ## Release, Bug fixes
 
@@ -247,3 +401,5 @@ git checkout merge release/0.1.0
 git flow release finish '0.1.0'
 ```
 ---
+
+## Section 5.2 : Dealing with Large files 
