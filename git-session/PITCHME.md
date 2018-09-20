@@ -2,6 +2,8 @@
 
 # Git Session
 
+Varun Sundar
+
 ---
 
 ## Topics:
@@ -19,7 +21,7 @@
 
 Section 1: 
 
-## Git is really beautiful, well setup.
+### Git is really beautiful, well setup.
 
 But it takes some time to get a grasp.
 
@@ -53,7 +55,7 @@ Feel free to shoot questions.
 
 +++
 
-## Strenghts
+### Strenghts
 
 * Performance: 
     - Committing new changes, branching, merging and comparing past versions are all optimized for performance.
@@ -64,13 +66,13 @@ Feel free to shoot questions.
 
 +++
 
-## Overall Picture
+### Overall Picture
 
 ![Git overall](https://wac-cdn.atlassian.com/dam/jcr:2bef0bef-22bc-4485-94b9-a9422f70f11c/02%20(2)
 
 ---
 
-## Section 2: Hello git
+### Section 2: Hello git
 
 Let's code this along!
 
@@ -103,7 +105,7 @@ git config --global user.email
 
 +++
 
-## Step 2: Find a directory of interest
+### Step 2: Find a directory of interest
 
 ```
 cd foo
@@ -112,7 +114,7 @@ git init
 
 +++
 
-## Step 3: Add, update files
+### Step 3: Add, update files
 
 ```
 git add . && git add -u
@@ -120,7 +122,7 @@ git add . && git add -u
 
 +++
 
-## Step 4: Add a remote
+### Step 4: Add a remote
 
 ```
 git remote add url
@@ -128,7 +130,7 @@ git remote add url
 
 +++
 
-## Step 5: Push to origin at master
+### Step 5: Push to origin at master
 
 ```
 git push --set-upstream origin master
@@ -284,7 +286,7 @@ git log --pretty=oneline
 
 +++
 
-## Let's try this
+### Let's try this
 
 Introduce a big file in your dir.
 
@@ -354,7 +356,7 @@ git branch -d fancybranch
 ```
 ---
 
-## Section 4.2: Remotes (fun stuff ahead)
+### Section 4.2: Remotes (fun stuff ahead)
 
 * Besides your local copy, a copy on a server.
 
@@ -367,7 +369,7 @@ git branch -d fancybranch
 
 +++
 
-## Github vs. GitLab vs. Bitbucket
+### Github vs. GitLab vs. Bitbucket
 
 ![git-providers](https://www.amarinfotech.com/wp-content/uploads/2017/05/GitLab-vs-GitHub-vs-bitbucket-1.jpg)
 
@@ -396,7 +398,7 @@ Private repos:
 * not free on Github  
 ---
 
-## Section 5 Git Oriented Practices (Optional)
+### Section 5: Git Oriented Practices (Optional)
 
 * Seperate master and develop branches
 
@@ -406,7 +408,7 @@ Private repos:
 
 +++
 
-## Dev vs Master
+### Dev vs Master
 
 ![git flow features](https://www.atlassian.com/dam/jcr:b5259cce-6245-49f2-b89b-9871f9ee3fa4/03%20(2).svg)
 
@@ -416,7 +418,7 @@ Private repos:
 
 +++
 
-## Release, Bug fixes
+### Release, Bug fixes
 
 ![Git release, bug fixes](https://www.atlassian.com/dam/jcr:61ccc620-5249-4338-be66-94d563f2843c/05%20(2).svg)
 
@@ -431,7 +433,7 @@ git flow release finish '0.1.0'
 ```
 ---
 
-## Section 5.2 : Dealing with Large Bianries 
+### Section 5.2 : Dealing with Large Bianries 
 
 @ul
 * Large binaries are often issues in version control  
@@ -456,7 +458,7 @@ git flow release finish '0.1.0'
 
 +++
 
-## Dealing with Large Binaries
+### Dealing with Large Binaries
 
 @ul
 * Dont add them !
@@ -489,8 +491,8 @@ git flow release finish '0.1.0'
 
 +++
 
-## That's all for now !
-## Any question?
-## Slides available at : https://gitpitch.com/iitmcvg/presentations/master?p=git-session#/5
+### That's all for now !
+### Any question?
+### Slides available at : https://gitpitch.com/iitmcvg/presentations/master?p=git-session#/5
 
 ---
