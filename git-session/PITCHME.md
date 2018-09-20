@@ -1,5 +1,13 @@
 7th July, 2018
 
+@snap[north-east]
+![cvi](http://iitmcvg.github.io/assets/avatar.png)
+@snapend
+
+@snap[south-east]
+![cfi](http://cfi.iitm.ac.in/main/wp-content/uploads/2014/09/favicon.png)
+@snapend
+
 # Git Session
 
 Varun Sundar
@@ -165,18 +173,18 @@ I'll shortly explain what a remote, origins and master's are.
 ### Continued:
 
 * Levels:
-    --local (project specific)
-    --global (user specific)
-    --system (all machines)
+    --local (project specific)  
+    --global (user specific)  
+    --system (all machines)  
 
 +++
 
 * Some objects and properties:
-    - user >> email, name
-    - merge >> tool
-    - color >> ui
-    - alias >> <name for alias >
-    eg: `git config --global alias.ci commit`
+    - user >> email, name  
+    - merge >> tool  
+    - color >> ui  
+    - alias >> <name for alias >  
+    eg: `git config --global alias.ci commit`  
 
 ---
 
