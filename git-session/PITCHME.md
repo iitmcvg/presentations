@@ -1,13 +1,5 @@
 7th July, 2018
 
-@snap[west sidebar]
-![cvi](http://iitmcvg.github.io/assets/avatar.png)
-@snapend
-
-@snap[south sidebar]
-![cfi](http://cfi.iitm.ac.in/main/wp-content/uploads/2014/09/favicon.png)
-@snapend
-
 # Git Session
 
 Varun Sundar
