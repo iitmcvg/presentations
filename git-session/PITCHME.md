@@ -36,7 +36,15 @@ Feel free to shoot questions.
 
 +++
 
+![image1](https://www.techwebies.com/wp-content/uploads/2015/09/svn-repo.png)
 
++++
+
+![image2](https://securityonline.info/wp-content/uploads/2017/09/centralized-vs-distributed.jpg)
+
++++
+
+![image3](https://www.addteq.com/blog/files/113446998/113447001/1/1457715739000/gitvssvn.png)
 
 ---
 
@@ -57,7 +65,7 @@ Feel free to shoot questions.
 
 ---
 
-## Section 1.1 Initialising a repo
+## Section 2: Hello git
 
 ```
 cd foo
@@ -70,7 +78,7 @@ git push --set-upstream origin master
 
 ---
 
-## Section 1.2 Git Config
+## Section 2.2 Git Config
 
 * is a convenience function that is used to set Git configuration values on a global or local project level. 
 
@@ -96,7 +104,7 @@ git push --set-upstream origin master
 
 ---
 
-## Section 1.3 Saving Changes
+## Section 2.3 Saving Changes
 
 * git add
 * git commit
@@ -183,7 +191,7 @@ git log --pretty=oneline
 
 ---
 
-## Section 1.4 Organising this
+## Section 2.4 Organising this
 
 * Seperate master and develop branches
 
@@ -216,54 +224,4 @@ git checkout master
 git checkout merge release/0.1.0
 git flow release finish '0.1.0'
 ```
----
-
-## Section 2: Our Workstation
-
-* Acessing containers
-
-`ssh -p XXXX name@IP`
-
-* Any wifi in insti directly connected to insti LAN
-
-* 10.21.XX.XX IP
-
-+++
-
-## Some changes you should do
-
-* Change password, move to SSH Keys
-
-* Add zsh flavours
-
-* Add tmux, net-tools
-
----
-
-## Section 3: Docker 
-
-* What is docker
-
-![docker](https://www.docker.com/sites/default/files/Container%402x.png)
-
----
-
-![another image](https://docs.docker.com/engine/images/architecture.svg)
-
----
-
-## The basic workflow
-
-* Images
-
-* Containers
-
-* Build directives
-
-+++
-
-* Build>> converts a list of instructions into an image
-
-* Image >> Serves as "OS" for various containers
-
 ---
