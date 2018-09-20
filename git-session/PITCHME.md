@@ -67,6 +67,28 @@ Feel free to shoot questions.
 
 ## Section 2: Hello git
 
+Let's code this along!
+
++++
+
+### Step 1: Who are you (to git)?
+
+```
+git config --global user.name "Mona Lisa"
+git config --global user.email "mona.lisa@da-vinci.com
+```
+
++++
+
+You can display these by
+
+```
+git config --global user.name
+git config --global user.email
+```
+
++++
+
 ```
 cd foo
 git init
