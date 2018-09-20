@@ -7,12 +7,12 @@
 ## Topics:
 
 @ul
-1. What, why and how?
-2. Your first repo.
-3. A gist of git commands.
-4. Some more steps.
-5. Git oriented practices.
-6. Other use cases.
+1. What, why and how?  
+2. Your first repo.  
+3. A gist of git commands.  
+4. Some more steps.  
+5. Git oriented practices.  
+6. Other use cases.  
 @ulend
 
 ---
@@ -354,17 +354,44 @@ git branch -d fancybranch
 
 ## Section 4.2: Remotes (fun stuff ahead)
 
+* Besides your local copy, a copy on a server.
 
+* Public hosted or Private.
+
+* Major providers:
+    * Github  
+    * Gitlab  
+    * Bitbucket  
 
 +++
 
 ## Github vs. GitLab vs. Bitbucket
 
+![git-providers](https://www.amarinfotech.com/wp-content/uploads/2017/05/GitLab-vs-GitHub-vs-bitbucket-1.jpg)
+
++++
+
+Popularity
+
+* Github is the gold standard for opensource code.  
+* Gitlab Enterprise for premise installs  
+* Bitbucket is marginal for both  
+
++++
+
+![opensource](https://content.nexosis.com/hs-fs/hubfs/posts/Stack%20Overflow%20Trends/GitHub-GitLab-Bitbucket-border.jpg?t=1535133708722&width=612&height=437&name=GitHub-GitLab-Bitbucket-border.jpg)
+
++++
+
+![self-host](https://user-images.githubusercontent.com/4660275/34914739-d929d7dc-f929-11e7-945f-daf17005a767.png)
+
++++
+
 Private repos:
 
-* free on Bitbucket (w/ < 6 collaborators)
-* free on GitLab (unlimited collaborators)
-* not free on Github
+* free on Bitbucket (w/ < 6 collaborators)  
+* free on GitLab (unlimited collaborators)  
+* not free on Github  
 ---
 
 ## Section 5 Git Oriented Practices (Optional)
@@ -396,10 +423,72 @@ Private repos:
 * once released, you merge it into master and dev
 
 ```
-git checkout master
-git checkout merge release/0.1.0
-git flow release finish '0.1.0'
+git checkout master  
+git checkout merge release/0.1.0  
+git flow release finish '0.1.0'  
 ```
 ---
 
-## Section 5.2 : Dealing with Large files 
+## Section 5.2 : Dealing with Large Bianries 
+
+@ul
+* Large binaries are often issues in version control  
+
+* How big? Say > 10 MB, binaries.
+
+* Code not an issue
+
+@ulend
+
++++
+
+@ul
+
+* Git doesnt track them line wise
+
+* So for every minor mod, you incurr a big penalty
+
+* 50 MB >> 100 MB >> 150 MB, blows up soon
+
+@ulend
+
++++
+
+## Dealing with Large Binaries
+
+@ul
+* Dont add them !
+
+* Git solutions:
+    * Git LFS >> Too slow
+@ulend
+
++++
+
+### Our recent approach
+
+* Adding binaries with a seperate tag.
+
+* We don't track them, just sync
+
+* Syncs to a common HDD.
+
+* No change in workflow for dev, except 
+
+`foo/bar.b` becomes `lazydata(track('foo/bar.b'))`
+
+---
+
+## Section 6: Other Use cases
+
+* You can tie your entire workflow to git.
+
+* Details, discussion offline.
+
++++
+
+## That's all for now !
+## Any question?
+## Slides available at : https://gitpitch.com/iitmcvg/presentations/master?p=git-session#/5
+
+---
